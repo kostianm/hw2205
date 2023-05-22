@@ -1,0 +1,75 @@
+.figure {
+    width: 500px;
+    height: 500px;
+    border: 5px solid black;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.figure div {
+    width: 200px;
+    height: 200px;
+    border: 3px solid gray;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+#oval {
+    width: 250px;
+    height: 150px;
+    border-radius: 25%;
+    background-color: green;
+}
+
+#rect {
+    width: 250px;
+    height: 150px;
+    background-color: blue;
+}
+
+.figure .circle {
+    background-color: #ff0077;
+}
+
+.message {
+    width: 600px;
+    height: 500px;
+    border: 3px solid red;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.message div {
+    width: 100px;
+    height: 100px;
+}
+
+.circle.middle {
+    background-color: #123456;
+}
+
+.message .square {
+    background-color: #ccaabb;
+    color: aqua;
+}
+
+[title="Hello"] {
+    color: blue;
+}
+
+[title="world"] {
+    color: yellow;
+}
+
+[contenteditable] {
+    background-color: green;
+    color: #020202;
+}
